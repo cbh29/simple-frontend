@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', arial;
+    color: #1F2937;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.items {
+    display: inline-flex;
+}
+
+.label, .total-items, .total-items1, .right, .left{
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.total-items , .total-items1, .right, .left, .add{
+    background-color: #1F2937;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.name {
+    text-transform: capitalize;
+    width: 150px;
+}
+
+.qty {
+    width: 70px;
+}
+
+.inputs {
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+
+.add-items {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #C9DBB2;
+}
+
+.add, .del {
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #1F2937;
+}
+
+.basketA, .basketB {
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fruit-items {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.fruit-name, .fruit-qty {
+    font-size: 20px;
+    text-transform: capitalize;
+    margin: 2px;
+}
+
+.fruit-name {
+    flex: 1;
+}
